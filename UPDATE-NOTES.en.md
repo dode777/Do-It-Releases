@@ -7,3 +7,4 @@
 - Groups fixed costs such as subscriptions, insurance and phone bills by category, with the monthly total and upcoming payment dates.
 - Pull down the title at the top for today's summary. Time-of-day settings and the gesture guide are there too.
 - Open it in your phone browser with no install, and add it to the home screen to use it like an app.
+- Your records are stored on the phone itself. Export them to a file from Settings to back them up, and import the file on a new device.
