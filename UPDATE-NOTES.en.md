@@ -1,3 +1,10 @@
+## 0.1.2
+### Feels more like an app.
+
+- Fixed panels such as Settings sliding sideways off the screen when dragged.
+- The screen no longer zooms in when you double-tap or pinch.
+- Long-pressing labels no longer selects text. Input fields work as before.
+
 ## 0.1.1
 ### Polished the opening screen.
 
