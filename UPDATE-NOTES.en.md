@@ -1,3 +1,8 @@
+## 0.1.3
+### Added a link preview.
+
+- When you share the app link in a chat or message, a Do-It preview image and description now appear.
+
 ## 0.1.2
 ### Feels more like an app.
 
