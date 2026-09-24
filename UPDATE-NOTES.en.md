@@ -1,3 +1,9 @@
+## 0.1.1
+### Polished the opening screen.
+
+- The opening screen now stays a little longer. Tap to skip it.
+- Fixed a strip of color that could stay at the bottom of the screen after the opening screen.
+
 ## 0.1.0
 ### Do-It has been released.
 
