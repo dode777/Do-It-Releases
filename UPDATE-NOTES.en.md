@@ -13,7 +13,7 @@
 ### Polished the opening screen and the top of the screen, and added a link preview.
 
 - The opening screen takes its time: the logo fades in and fades out, and the brief flash of the logo at the start is gone.
-- When added to the home screen, the app now fills the screen up to the clock and battery. If you already added it, remove it and add it again.
+- When added to the home screen, the app now fills the screen up to the clock and battery. If you already added it, add it again for this to apply. On iPhone, removing the home-screen icon also deletes your records, so first export them to a file in Settings, then remove and re-add the app and import the file.
 - Fixed the opening screen or a topic showing only halfway after turning the screen sideways.
 - When you share the app link in a chat or message, a Do-It preview image and description now appear.
 
