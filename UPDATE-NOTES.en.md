@@ -1,3 +1,14 @@
+## 0.1.4
+### Feels more like an app.
+
+- Sharper home-screen icon, and the default name when adding to the home screen is now "두잇".
+- Less stutter when swiping quickly between topics, and the first and last topics no longer drag past the edge.
+- Words used only for payments, such as "월세" (rent) or "관리비" (maintenance fee), now go to fixed costs on their own, and the examples match the category you pick.
+- Panels no longer shrink the screen behind them; it just dims. On Android, the back button closes the panel.
+- Buttons press in slightly when tapped, and the phone gives a short buzz when you press and hold to finish (iPhone needs iOS 18 or later).
+- Turn it on in Settings to show today's remaining count on the home-screen icon.
+- Tidied the text sizes and spacing in the quick-add panel so it is easier to read.
+
 ## 0.1.3
 ### Polished the opening screen and the top of the screen, and added a link preview.
 
