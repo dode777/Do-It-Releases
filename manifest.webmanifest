@@ -1,6 +1,6 @@
 {
-  "name": "do-it",
-  "short_name": "do-it",
+  "name": "두잇",
+  "short_name": "두잇",
   "description": "매일의 할 일과 복약, 고정비를 손짓으로 챙기는 앱",
   "lang": "ko",
   "id": "./",
@@ -12,6 +12,7 @@
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-1024.png", "sizes": "1024x1024", "type": "image/png" },
     { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
