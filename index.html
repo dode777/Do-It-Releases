@@ -24,8 +24,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 <!-- 홈 화면에 추가할 때 기본 이름 -->
 <meta name="apple-mobile-web-app-title" content="두잇">
-<!-- 홈 화면 앱에서 화면을 시계·배터리 줄 아래까지 채운다(글자는 늘 흰색 — app.css 의 상단 그늘로 읽히게) -->
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- default: 상태 표시줄은 앱 위에 따로 둔다. black-translucent(화면을 시계 줄까지 채우기)는 iOS 26 에서 적용되지 않거나
+     화면 높이가 어긋나는 문제(WebKit 301108)가 있어 0.1.7 에서 철회했다 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="format-detection" content="telephone=no">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml">
@@ -64,8 +65,8 @@
 <link rel="apple-touch-startup-image" href="./startup/startup-1488x2266.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 <link rel="apple-touch-startup-image" href="./startup/startup-2266x1488.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 <!-- startup:end -->
-  <script type="module" crossorigin src="./assets/index-Fnu4U0RU.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-1zCcFysf.css">
+  <script type="module" crossorigin src="./assets/index-C-zD4nRk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-oTlbH77e.css">
 </head>
 <body>
 <div class="app" id="app">
