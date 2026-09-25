@@ -1,3 +1,12 @@
+## 0.1.6
+### Even spacing across screens, and quick add understands more.
+
+- Fixed places such as Settings where content touched the right edge, and made spacing consistent across the app.
+- In the summary, tapping anywhere on a topic card now opens that topic. Before, only the top line of the card responded.
+- Typing "크레아틴 운동 후" (creatine after workout) now puts "운동 후" in the description and names the item "크레아틴". The same goes for phrases like "before a shower" or "right after waking up".
+- Amounts such as 5g, 1 scoop or 1000mg go to pills. A name you've moved to pills once goes there on its own from then on.
+- The home-screen icon now comes through with the new image. The app version is shown at the bottom of Settings.
+
 ## 0.1.5
 ### The home-screen name and icon come through, and quick add got smarter.
 
