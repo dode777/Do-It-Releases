@@ -1,3 +1,13 @@
+## 0.1.7
+### Polished settings and item details, and fixed items disappearing
+
+- If time-of-day ranges overlap or are out of order, a note appears under that row and the change isn't saved.
+- Settings are now grouped into cards, with a bar showing your day's time ranges at a glance. Times use the 24-hour format.
+- Item details no longer use "?" help. Field names and choices say what they do, and one line shows the result of your choice.
+- Reminder and remaining-count fields, which are still in the works, are hidden for now. Values you already set are kept.
+- Fixed items disappearing after entering an out-of-range number for a goal count or interval. You now see a note under the field.
+- Fixed times and dates being cut off on narrow screens, and removed the version line at the bottom of Settings.
+
 ## 0.1.6
 ### Improved the UI and small features
 
