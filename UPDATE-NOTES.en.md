@@ -4,6 +4,7 @@
 - Fixed the old name (do-it) and old icon showing up when adding to the home screen. It now uses "두잇" and the new icon.
 - Type just a date, such as "분리수거 내일" (recycling tomorrow) or a month and day, and it becomes a task for that one day. Add "까지" (by) to make it a deadline as before.
 - A task typed on the pills screen that isn't a medicine goes to a to-do topic, and a medicine name typed elsewhere goes to pills.
+- When importing a backup, the backup and the records on this device are shown side by side in one table, so you can see at a glance what will change.
 - Added a note to the backup section in Settings: on iPhone, removing the home-screen icon also deletes your records, so export them to a file before adding the app again.
 
 ## 0.1.4
