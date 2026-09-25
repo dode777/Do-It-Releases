@@ -1,63 +1,61 @@
 ## 0.1.6
-### Even spacing across screens, and quick add understands more.
+### Improved the UI and small features
 
-- Fixed places such as Settings where content touched the right edge, and made spacing consistent across the app.
-- In the summary, tapping anywhere on a topic card now opens that topic. Before, only the top line of the card responded.
-- Typing "크레아틴 운동 후" (creatine after workout) now puts "운동 후" in the description and names the item "크레아틴". The same goes for phrases like "before a shower" or "right after waking up".
-- Amounts such as 5g, 1 scoop or 1000mg go to pills. A name you've moved to pills once goes there on its own from then on.
-- Item detail fields have clearer names, and fields that were hard to understand now have a "?" that explains them with an example. A line under each field says what the current choice means.
-- The two period boxes are now labelled "start" and "end". If the end comes before the start, you are told right away.
-- For bills, the "months in use" count now starts from the start date you enter. Before, it counted from the month you added the bill, so it could say it started this month.
-- The home-screen icon now comes through with the new image. The app version is shown at the bottom of Settings.
+- Fixed an issue where some screens, like settings, lacked right margins and updated all screens to follow consistent layout rules.
+- You can now tap anywhere on a topic card in the summary view to open that topic. Previously, only the very top line was clickable.
+- Typing "Creatine after workout" automatically assigns "after workout" as the note and "Creatine" as the item name. This also applies to phrases like "before shower" and "right after waking up."
+- Items with units like "5g," "1 scoop," or "1000mg" are automatically categorized under Medications/Supplements. Once a name is categorized there, it will automatically go to the same section next time.
+- Clarified column names in the item details view and added a "?" icon next to confusing fields to show definitions and examples when tapped. It also explains what your selected option means in a single line below the field.
+- Labeled the date range fields as "Start Date" and "End Date," and the app will instantly alert you if the end date is earlier than the start date.
+- Fixed the fixed expenses duration counter: entering a start date now correctly tracks "X months active" starting from that specific date. Previously, it counted from the month added, displaying "Starts this month."
+- Updated the home screen icon to the new design and added app version details at the very bottom of the settings screen.
 
 ## 0.1.5
-### The home-screen name and icon come through, and quick add got smarter.
+### Updated the home screen name and icon, and made the quick add smarter
 
-- Fixed the old name (do-it) and old icon showing up when adding to the home screen. It now uses "두잇" and the new icon.
-- Type just a date, such as "분리수거 내일" (recycling tomorrow) or a month and day, and it becomes a task for that one day. Add "까지" (by) to make it a deadline as before.
-- A task typed on the pills screen that isn't a medicine goes to a to-do topic, and a medicine name typed elsewhere goes to pills.
-- When importing a backup, the backup and the records on this device are shown side by side in one table, so you can see at a glance what will change.
-- Added a note to the backup section in Settings: on iPhone, removing the home-screen icon also deletes your records, so export them to a file before adding the app again.
+- Fixed an issue where adding the app to the home screen displayed the old name (do-it) and icon. It now correctly installs as "Do-It" with the new icon.
+- Typing dates like "Recycling tomorrow" or "Dentist Sept 30" automatically schedules it as a single-day task. Adding "by" will still set it as a deadline like before.
+- Entering non-medication tasks in the Medications/Supplements view routes them to General Tasks, while typing a supplement name anywhere else automatically puts it in Medications/Supplements.
+- When importing a backup, the app now shows a table comparing your backup records side-by-side with your current device records so you can see exactly what changes.
+- Added a warning to the backup section in settings for iOS users: deleting the home screen icon erases your local data. Please export your data to a file before removing the icon.
 
 ## 0.1.4
-### Feels more like an app.
+### Fine-tuned the experience to feel more like a native app
 
-- Sharper home-screen icon, and the default name when adding to the home screen is now "두잇".
-- Less stutter when swiping quickly between topics, and the first and last topics no longer drag past the edge.
-- Words used only for payments, such as "월세" (rent) or "관리비" (maintenance fee), now go to fixed costs on their own, and the examples match the category you pick.
-- Panels no longer shrink the screen behind them; it just dims. On Android, the back button closes the panel.
-- Buttons press in slightly when tapped, and the phone gives a short buzz when you press and hold to finish (iPhone needs iOS 18 or later).
-- Turn it on in Settings to show today's remaining count on the home-screen icon.
-- Tidied the text sizes and spacing in the quick-add panel so it is easier to read.
+- Sharpened the home screen icon and set the default installation name to "Do-It."
+- You can now toggle a notification badge in settings to see your remaining tasks for today directly on the home screen icon.
+- Reduced stuttering when swiping quickly between topics and prevented the screen from shifting over when pulling past the first or last topic.
+- Terms used exclusively for payments, like "Rent" or "Maintenance fee," are automatically categorized as fixed expenses and display relevant examples.
+- Enhanced haptic feedback so you get a subtle click sensation when tapping, and a vibration when holding down to complete a task (requires iOS 18 or later for iPhone).
 
 ## 0.1.3
-### Polished the opening screen and the top of the screen, and added a link preview.
+### Cleaned up the splash screen, top layout, and link sharing previews
 
-- The opening screen takes its time: the logo fades in and fades out, and the brief flash of the logo at the start is gone.
-- When added to the home screen, the app now fills the screen up to the clock and battery. If you already added it, add it again for this to apply. On iPhone, removing the home-screen icon also deletes your records, so first export them to a file in Settings, then remove and re-add the app and import the file.
-- Fixed the opening screen or a topic showing only halfway after turning the screen sideways.
-- When you share the app link in a chat or message, a Do-It preview image and description now appear.
+- Smoothed out the splash screen experience by making the logo fade in and out gracefully, eliminating the initial logo flicker.
+- Fixed layout issues where the splash screen or topic screens would appear cut off halfway when switching the device to landscape mode.
+- Expanded the app layout on the home screen to fill the entire display, stretching all the way to the status bar (clock and battery area). If you already added the app, you will need to re-add it to apply this change. iPhone users should back up their data before doing this.
+- Sharing the app link via messaging apps now displays a preview image and a summary description of Do-It.
 
 ## 0.1.2
-### Feels more like an app.
+### Optimized behaviors for a more native app feel
 
-- Fixed panels such as Settings sliding sideways off the screen when dragged.
-- The screen no longer zooms in when you double-tap or pinch.
-- Long-pressing labels no longer selects text. Input fields work as before.
+- Fixed an issue where menus like settings would drift horizontally when swiping near the edges.
+- Disabled double-tap to zoom and pinch-to-zoom gestures to prevent accidental screen scaling.
+- Disabled text selection when long-pressing guide banners, while keeping text selection fully functional within input fields.
 
 ## 0.1.1
-### Polished the opening screen.
+### Polished the splash screen
 
-- The opening screen now stays a little longer. Tap to skip it.
-- Fixed a strip of color that could stay at the bottom of the screen after the opening screen.
+- Extended the display time of the splash screen slightly for a smoother transition, and added the ability to tap to skip it instantly.
+- Fixed a bug where a residual background color remained at the bottom of the screen after the splash screen faded out.
 
 ## 0.1.0
-### Do-It has been released.
+### Do-It is officially live!
 
-- Shows one task per screen. Press and hold to finish it; hold again to undo.
-- Double-tap to add in one line. Type a line such as "저녁 루테인 1알" (lutein, one capsule, evening) or "넷플릭스 매월 25일 17000원" (Netflix, 17,000 won on the 25th of every month) and the time, count and amount are filled in for you. Entries are read in Korean for now.
-- Split things into topics such as pills, routines, intervals and goals and swipe sideways between them; within a topic, swipe up card by card.
-- Groups fixed costs such as subscriptions, insurance and phone bills by category, with the monthly total and upcoming payment dates.
-- Pull down the title at the top for today's summary. Time-of-day settings and the gesture guide are there too.
-- Open it in your phone browser with no install, and add it to the home screen to use it like an app.
-- Your records are stored on the phone itself. Export them to a file from Settings to back them up, and import the file on a new device.
+- Displays one task per screen to help you focus. Simply press and hold to mark a task complete, or hold again to undo.
+- Double-tap anywhere to quickly add a task in one line. Typing phrases like "Evening Lutein 1 pill" or "Netflix 25th monthly 17000 KRW" automatically parses the time, count, and price into their respective fields.
+- Easily swipe horizontally to switch between topics like Medications/Supplements, Routines, Intervals, and Goals, and swipe vertically to cycle through individual cards within a topic.
+- Groups fixed expenses like subscriptions, insurance, and phone bills by category to show your total monthly spending and upcoming due dates.
+- Pull down the top title bar to reveal your daily summary, where you can also customize time slots and gesture guides.
+- Open the link in your mobile browser to use it instantly without any installation, and add it to your home screen to use it just like a native app.
+- All records are saved securely directly on your device. You can back up your data by exporting it to a file in settings and restore it easily when switching devices.
