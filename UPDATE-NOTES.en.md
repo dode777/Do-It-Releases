@@ -7,6 +7,7 @@
 - Amounts such as 5g, 1 scoop or 1000mg go to pills. A name you've moved to pills once goes there on its own from then on.
 - Item detail fields have clearer names, and fields that were hard to understand now have a "?" that explains them with an example. A line under each field says what the current choice means.
 - The two period boxes are now labelled "start" and "end". If the end comes before the start, you are told right away.
+- For bills, the "months in use" count now starts from the start date you enter. Before, it counted from the month you added the bill, so it could say it started this month.
 - The home-screen icon now comes through with the new image. The app version is shown at the bottom of Settings.
 
 ## 0.1.5
