@@ -3,6 +3,7 @@
 
 - The opening screen takes its time: the logo fades in and fades out, and the brief flash of the logo at the start is gone.
 - When added to the home screen, the app now fills the screen up to the clock and battery. If you already added it, remove it and add it again.
+- On phones the app now stays in portrait. Turn the phone sideways and it asks you to turn it back. Tablets still work in landscape.
 - When you share the app link in a chat or message, a Do-It preview image and description now appear.
 
 ## 0.1.2
