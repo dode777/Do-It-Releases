@@ -1,3 +1,13 @@
+## 0.1.9
+### Smoother scrolling and gestures
+
+- When you scroll a panel, content now fades out softly at the top and bottom edges. On small screens you can scroll down to the add button.
+- You can close a panel by dragging it down from the top.
+- Completing or undoing an item with a long press now transitions smoothly, and the next card comes up a little sooner.
+- You can now change the name and color of Bills too, by long-pressing its card in the summary.
+- On iPhone, swiping from the screen edge no longer closes the open summary. Swipe it up to close it.
+- Fixed a long press right after scrolling opening the menu instead.
+
 ## 0.1.8
 ### Brighter colors, plus a new icon and launch screen
 
