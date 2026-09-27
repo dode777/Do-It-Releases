@@ -1,3 +1,12 @@
+## 0.1.8
+### Brighter colors, plus a new icon and launch screen
+
+- Topic colors look fresh instead of muted, and text uses a matching deeper shade so it's easier to read.
+- Completed items no longer turn dark. They show a light background with a check in the topic color.
+- The app background is now a warm paper tone, and summary cards carry a light hint of each topic color.
+- In the home-screen app, the top of the screen now blends with the black status bar. Re-add the app to your home screen to apply it (export a backup first).
+- The app icon and the logo shown at launch have been redesigned.
+
 ## 0.1.7
 ### Polished settings and item details, and fixed items disappearing
 
