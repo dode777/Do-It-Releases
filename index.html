@@ -18,20 +18,27 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="두잇 Do-It — 손짓으로 챙기는 하루 체크리스트">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#F1F2F4">
+<meta name="theme-color" content="#F7F4F0">
 <meta name="color-scheme" content="light">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <!-- 홈 화면에 추가할 때 기본 이름 -->
 <meta name="apple-mobile-web-app-title" content="두잇">
-<!-- default: 상태 표시줄은 앱 위에 따로 둔다. black-translucent(화면을 시계 줄까지 채우기)는 iOS 26 에서 적용되지 않거나
-     화면 높이가 어긋나는 문제(WebKit 301108)가 있어 0.1.7 에서 철회했다 -->
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<!-- black(0.1.8): 상태 표시줄을 앱 위의 검은 띠로 둔다(내용은 그 아래에서 시작). 홈 화면 앱에서는 앱 화면 위 두 모서리를 둥글게(22px)
+     깎고 바깥을 검정으로 이어(app.css html.ios-home, src/platform/appFeel.ts markIosHome) 띠가 기기 베젤처럼 보이게 한다.
+     default 는 iOS 26 에서 띠 색이 theme-color 가 아니라 시스템 라이트/다크(연회색·검정)로 실행 때 정해져 앱 색과 어긋났고,
+     black-translucent(시계 줄까지 채우기)는 창 높이가 짧아지는 문제(WebKit 301108)가 있어 쓰지 않는다.
+     이 값은 홈 화면에 추가하는 순간 굳는다 — 이미 추가한 사람은 지우고 다시 추가해야 바뀐다(먼저 백업) -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- 홈 화면 앱(navigator.standalone === true)이면 첫 그림 전에 html.ios-home 을 단다. 모듈(src/main.ts)은 지연 실행이라 거기서 달면
+     WebKit 이 그 전에 한 프레임(네모난 종이 화면)을 칠할 수 있다. 같은 조건을 src/platform/appFeel.ts markIosHome 이 다시 확인한다
+     (조건이 같은지 tests/unit/appfeel.test.ts 가 본다) -->
+<script>if (navigator.standalone === true) document.documentElement.classList.add('ios-home');</script>
 <meta name="format-detection" content="telephone=no">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="icon" href="./icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./icons/favicon.svg?v=3" type="image/svg+xml">
 <!-- ?v= : 아이폰은 홈 화면 아이콘을 주소별로 오래 저장한다 — 그림을 바꾸면 이 숫자를 올린다(0.1.6: 0.1.4 에서 바꾼 아이콘이 반영되지 않았다) -->
-<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=2">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=3">
 <!-- startup:begin (scripts/startup.mjs 가 쓴다) -->
 <link rel="apple-touch-startup-image" href="./startup/startup-1320x2868.png" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
 <link rel="apple-touch-startup-image" href="./startup/startup-1206x2622.png" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
@@ -65,8 +72,8 @@
 <link rel="apple-touch-startup-image" href="./startup/startup-1488x2266.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 <link rel="apple-touch-startup-image" href="./startup/startup-2266x1488.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 <!-- startup:end -->
-  <script type="module" crossorigin src="./assets/index-C-zD4nRk.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-oTlbH77e.css">
+  <script type="module" crossorigin src="./assets/index-Bom9rHt9.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-AfrthSpg.css">
 </head>
 <body>
 <div class="app" id="app">
