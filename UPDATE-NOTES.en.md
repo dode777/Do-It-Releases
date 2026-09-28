@@ -1,3 +1,8 @@
+## 0.1.10
+### Fixed swiping between topics on Android
+
+- Fixed swiping sideways on Android phones not moving to the next topic.
+
 ## 0.1.9
 ### Smoother scrolling and gestures
 
