@@ -1,3 +1,16 @@
+## 0.2.0
+### Remaining counts, a history grid, and managing everything from the summary
+
+- For items you count, like pills, enter how many are left. The count drops each time you complete it, and the app tells you when it will run out.
+- From an item's menu, you can push it back an hour or skip it just for today.
+- Any shortfall on a goal can carry over to the next period.
+- For items that come around on a schedule, you can choose how many days ahead their card appears.
+- In the summary, tap a topic card to see its items, or long-press and drag to reorder topics.
+- Swipe the summary sideways to see your past days as a history grid.
+- After you complete an item, an undo option appears briefly.
+- Text no longer overlaps when you swipe up, and sideways swipes work right after a vertical swipe.
+- On iPhone, the colors at the top and bottom of the screen now match the card. For the Home Screen app, add it again to apply this (export a backup first).
+
 ## 0.1.10
 ### Fixed swiping between topics on Android
 
