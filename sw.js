@@ -9,7 +9,8 @@
 //    홈 화면에 추가할 때 처음 받은 manifest("do-it")·옛 아이콘이 계속 쓰였다.
 const VERSION = new URL(self.location.href).searchParams.get('v') || '0';
 const CACHE = `do-it-${VERSION}`;
-const SHELL = ['./', './index.html', './manifest.webmanifest'];
+// manifest 는 둘: 아이폰·아이패드용(검정 — index.html head 인라인 줄이 고른다)과 그 밖(종이색)
+const SHELL = ['./', './index.html', './manifest.webmanifest', './manifest-ios.webmanifest'];
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
