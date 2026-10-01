@@ -40,7 +40,8 @@
      theme_color·background_color 가 검정인 manifest-ios.webmanifest, 그 밖(안드로이드 설치 앱이 쓴다)은 종이색 manifest.webmanifest.
      Safari 는 "홈 화면에 추가" 하는 순간(= 탭에서, standalone 이 아닐 때) 값을 읽어 굳히므로 standalone 이 아니라 기기로 가른다.
      Safari 탭(iOS 26+)의 위·아래 막대 색은 theme-color 가 아니라 가장자리 띠(body 끝 .edge)가 정한다 — 아이폰·아이패드 브라우저 탭
-     (apple 이고 standalone 이 아님)이면 html.ios-tab 을 달아 그때만 띠를 둔다(안드로이드·홈 화면 앱은 띠 없음) -->
+     (apple 이고 standalone 이 아님)이면 html.ios-tab 을 달아 그때만 색 따라가는 띠를 둔다(안드로이드는 띠 없음). 홈 화면 앱(ios-home)은 위 띠만
+     불투명 검정으로 둔다(0.2.1 — iOS 26 새 홈 화면 앱이 상단 막대를 페이지 색으로 칠해 흰색·회색으로 나왔다, app.css 위 베젤 절) -->
 <script>(function () { var ios = navigator.standalone === true, apple = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1), m = document.createElement('meta'), l = document.createElement('link'); if (ios) document.documentElement.classList.add('ios-home'); else if (apple) document.documentElement.classList.add('ios-tab'); m.name = 'theme-color'; m.content = ios ? '#000000' : '#F7F4F0'; document.head.appendChild(m); l.rel = 'manifest'; l.href = apple ? './manifest-ios.webmanifest' : './manifest.webmanifest'; document.head.appendChild(l); })();</script>
 <meta name="format-detection" content="telephone=no">
 <link rel="icon" href="./icons/favicon.svg?v=3" type="image/svg+xml">
@@ -79,8 +80,8 @@
 <link rel="apple-touch-startup-image" href="./startup/startup-1488x2266.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 <link rel="apple-touch-startup-image" href="./startup/startup-2266x1488.png" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 <!-- startup:end -->
-  <script type="module" crossorigin src="./assets/index-D6UCYql8.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Cnktums3.css">
+  <script type="module" crossorigin src="./assets/index-Cycweja6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CprONRRH.css">
 </head>
 <body>
 <div class="app" id="app">
@@ -105,7 +106,7 @@
   <div class="toast" id="toast"><span></span><button type="button"></button></div>
 </div>
 <!-- Safari 탭(iOS 26+)의 위·아래 막대 색을 정하는 가장자리 띠(app.css .edge, src/platform/theme.ts). 페이지를 여는 순간에도 있어야
-     처음 읽는 색이 화면 크기 요소(#app·스플래시)에 굳지 않는다 -->
+     처음 읽는 색이 화면 크기 요소(#app·스플래시)에 굳지 않는다. 홈 화면 앱은 위 띠(et)를 검정 베젤로 쓴다 -->
 <i class="edge et" aria-hidden="true"></i><i class="edge eb" aria-hidden="true"></i>
 </body>
 </html>
