@@ -1,3 +1,11 @@
+## 0.2.1
+### Topic sheets split into two pages, plus iPhone polish
+
+- Tapping a topic card in the summary now opens two pages: its items and its settings.
+- Tidied up spacing in the history view and item details.
+- On iPhone, you can now swipe sideways even while a card is still scrolling vertically.
+- Fixed the top bar of the iPhone Home Screen app showing white or gray.
+
 ## 0.2.0
 ### Remaining counts, a history grid, and managing everything from the summary
 
