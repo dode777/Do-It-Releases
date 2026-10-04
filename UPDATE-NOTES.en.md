@@ -1,3 +1,9 @@
+## 0.2.2
+### Edit and delete Bills categories
+
+- You can rename, recolor or delete a Bills category. Deleting a category also deletes its payments, and you can undo it right away.
+- Removed the helper that let you swipe sideways while a card was still scrolling vertically. It didn't work on iPhone.
+
 ## 0.2.1
 ### Topic sheets split into two pages, plus iPhone polish
 
