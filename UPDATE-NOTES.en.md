@@ -1,3 +1,12 @@
+## 0.2.3
+### Small fixes and corrected counts
+
+- In the Bills category sheet, adding a category now comes first and the category list sits below it.
+- While a sheet is open, the undo notice appears at the top so it no longer covers the buttons.
+- Deleting the card you were viewing now takes you to the next card instead of jumping to the top.
+- Fixed expired deadline items still being counted in today's tasks.
+- Edits to a topic's name are kept when you visit one of its items and come back.
+
 ## 0.2.2
 ### Edit and delete Bills categories
 
