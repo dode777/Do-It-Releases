@@ -1,3 +1,10 @@
+## 0.2.4
+### Reorder Bills, and buttons in sheets respond reliably
+
+- You can now long-press and drag the Bills card in the summary to change its position.
+- Fixed buttons in sheets sometimes not responding on iPhone, including deleting a category.
+- Category rows now show an arrow so you can tell they open for editing.
+
 ## 0.2.3
 ### Small fixes and corrected counts
 
